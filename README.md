@@ -22,4 +22,4 @@ See LICENSE for the full license text.
 Third-party materials remain subject to their respective licenses.
 See THIRD-PARTY-LICENSES.md for details.
 
-![PRINCIPIA](images/image.png)
+![PRINCIPIA](Images/principia.png)
