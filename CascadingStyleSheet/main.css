@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "ACES07";
+    src: url("../Fonts/local/ACES07_Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: "EVA-MATISSE";
+    src: url("../Fonts/local/EVA-MATISSE_CLASSIC.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+
+    /* =========================
+       COLOR PALETTE
+       ========================= */
+
+    /* BACKGROUND */
+    --bg-void: #dcdddf;
+    --panel-surface: #10171F;
+    --panel-border: #26333D;
+    --bg-main: #EEF1F2;
+
+    /* INTERFACE */
+    --accent-blue: #1976B9;
+    --accent-orange: #FF6B35;
+
+    /* LIGHT/GLOW */
+    --light-blue: #BDEAFF;
+    --glow-blue-soft: rgb(120 200 255 / 0.6);
+    --glow-blue-strong: rgb(60 150 220 / 0.6);
+
+    /* DATA */
+    --data-nominal: #4FE0D0;
+
+    /* STATUS */
+    --status-low: #D63636;
+    --status-normal: #37952F;
+
+    /* TEXT */
+    --text-primary: #FFFFFF;
+    --text-secondary: #7C8A96;
+
+   /* CHANGELOG */
+   --text-changelog: #000000;
+
+
+    /* =========================
+       TYPOGRAPHY
+       ========================= */
+
+    --font-main: "ACES07", sans-serif;
+
+    --font-size-page-title: 36px;
+    --font-size-menu: 24px;
+    --font-size-section-title: 42px;
+    --font-size-body: 20px;
+    --font-size-detail: 18px;
+    --font-size-label: 13px;
+    --font-size-reading: 52px;
+    --font-size-changelog-header: 12px;
+     --font-size-changelog-content: 9px;
+
+    --letter-spacing-title: 2px;
+    --letter-spacing-menu: 1px;
+    --letter-spacing-label: 2px;
+
+
+    /* =========================
+       UI GEOMETRY
+       ========================= */
+
+    --radius-panel: 16px;
+    --radius-card: 12px;
+}
+
+  
+#monitor-screen {
+  display: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-main);
+    font-family: var(--font-main);
+}
+

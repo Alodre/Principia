@@ -1,0 +1,71 @@
+#changelog-toggle {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  background: var(--accent-blue, #fff);
+  color: var(--text-primary, #fff);
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-size: var(--font-size-label, 13px);
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background 0.2s;
+}
+#changelog-toggle:hover {
+  background: var(--accent-orange, #FF6B35);
+}
+/* panel that slides up */
+#changelog-panel {
+  position: fixed;
+  right: 1rem;
+  bottom: 3.5rem;               /* start just above the toggle */
+  width: 260px;
+  max-height: 0;                /* collapsed */
+  overflow: hidden;
+  background: var(--panel-surface, #10171F);
+  color: var(--text-primary, #fff);
+  border: 1px solid var(--panel-border, #26333D);
+  border-radius: var(--radius-panel, 16px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 999;
+  transition: max-height 0.35s ease-out, padding 0.35s ease-out;
+}
+/* when the panel is visible */
+#changelog-panel.visible {
+  max-height: 400px;            /* enough to show the content */
+  padding: 0.8rem;
+}
+/* header inside the panel */
+.changelog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--font-size-changelog-header);
+  margin-bottom: 0.6rem;
+}
+/* close (✕) button */
+.changelog-close {
+  background: transparent;
+  border: none;
+  color: var(--text-changelog);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+/* body (your list of changes) */
+.changelog-body {
+  font-size: var(--font-size-changelog-content);
+  line-height: 1.4;
+  overflow-y: auto;
+}
+/* changelog line */
+#changelog-body .changelog-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: var(--text-changelog, #000000);
+  margin: 0 0.5rem;
+}
+/* hide the panel initially */
+.hidden {
+  display: none;
+}

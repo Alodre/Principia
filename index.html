@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CascadingStyleSheet/main.css" />
+    <link rel="stylesheet" href="CascadingStyleSheet/landing.css" />
+    <link rel="stylesheet" href="CascadingStyleSheet/monitor.css" />
+    <link rel="stylesheet" href="CascadingStyleSheet/changelog.css" />
+
+    <title>IV Weigh Monitor</title>
+  </head>
+
+  <body>
+    <section id="landing-screen">
+      <div class="ambient-field"></div>
+
+      <div class="landing-rail">
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="background-shape"></div>
+
+      <div class="brand">
+    <img src="Images/principia-logo.svg" alt="PRINCIPIA"></div>
+      <div class="provenance">
+    <img src="Images/principia-provenance.svg" alt="PRINCIPIA"></div>
+      <div class="gradience-test">
+    <img src="Images/bitmap.svg" alt="PRINCIPIA"></div>
+
+      <nav class="main-menu">
+        <button id="iv-weight-button" class="menu-item">
+          <span class="menu-label">IV WEIGHT</span>
+          <span class="menu-ambient">IV WEIGHT</span>
+
+          <span class="menu-line"></span>
+          <span class="menu-glint"></span>
+
+          <span class="menu-flare"></span>
+          <span class="menu-indicator"></span>
+        </button>
+
+        <button id="developer-button" class="menu-item">
+          <span class="menu-label">DEVELOPER</span>
+          <span class="menu-ambient">DEVELOPER</span>
+
+          <span class="menu-line"></span>
+          <span class="menu-glint"></span>
+
+          <span class="menu-flare"></span>
+          <span class="menu-indicator"></span>
+        </button>
+
+        <button id="about-button" class="menu-item">
+          <span class="menu-label">ABOUT</span>
+          <span class="menu-ambient">ABOUT</span>
+
+          <span class="menu-line"></span>
+          <span class="menu-glint"></span>
+
+          <span class="menu-flare"></span>
+          <span class="menu-indicator"></span>
+        </button>
+      </nav>
+    </section>
+
+    <section id="monitor-screen">
+      <main class="dashboard">
+        <h1 class="page-title">IV WEIGHT MONITOR</h1>
+        <p class="subtitle">THIS WILL EVENTUALLY SHOW THE IV BAG WEIGHT.</p>
+
+        <section class="weight-card">
+          <p class="reading-label">CURRENT WEIGHT</p>
+          <p class="reading-value" id="weight-reading">742.5 G</p>
+          <p class="reading-detail" id="percentage-reading">74% REMAINING</p>
+          <p class="reading-label">BAG COUNT</p>
+          <p class="reading-value" id="bagcount-reading">0</p>
+        </section>
+
+        <p class="status status--normal" id="status-message">STATUS: NORMAL</p>
+
+        <button id="test-button">SIMULATE LOWER WEIGHT</button>
+        <button id="reset-button">RESET WEIGHT</button>
+        <button id="refresh-button">GET LATEST READING</button>
+        <button id="back-button">BACK</button>
+      </main>
+    </section>
+  <script src="JavaScript/local/config.js"></script>
+  <script src="JavaScript/monitor.js"></script>
+  <script src="JavaScript/changelog.js"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+# Local-only third-party fonts
+Fonts/local/*
+
+# Local configuration and API credentials
+JavaScript/local/*
