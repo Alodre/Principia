@@ -22,4 +22,6 @@ See LICENSE for the full license text.
 Third-party materials remain subject to their respective licenses.
 See THIRD-PARTY-LICENSES.md for details.
 
-![PRINCIPIA](Images/principia.png)
+## v0.1.0 — PRINCIPIA PROTOTYPE
+ The first prototype of the [PRINCIPIA](https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/) Websites UI design, introducing the core concept and initial design. 
+[![PRINCIPIA](images/principia.png)](https://alodre.github.io/Principia/)
