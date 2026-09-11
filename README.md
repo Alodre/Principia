@@ -24,4 +24,4 @@ See THIRD-PARTY-LICENSES.md for details.
 
 ## v0.1.0 — PRINCIPIA PROTOTYPE
  The first prototype of the [PRINCIPIA](https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/) Websites UI design, introducing the core concept and initial design. 
-[![PRINCIPIA](images/principia.png)](https://alodre.github.io/Principia/)
+[![PRINCIPIA](Images/principia.png)](https://alodre.github.io/Principia/)
